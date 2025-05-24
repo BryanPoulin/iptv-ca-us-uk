@@ -1,6 +1,6 @@
 # 🇨🇦🇺🇸🇬🇧 Public IPTV Playlist - Canada, US, UK
 
-A curated list of publicly available IPTV (Internet Protocol television) channels from Canada, the United States, and the United Kingdom.
+A curated list of publicly available IPTV (Internet Protocol Television) channels from Canada, the United States, and the United Kingdom.
 
 ## 📺 How to Use
 
