@@ -1,4 +1,4 @@
-name: Update Index
+name: Update index.m3u
 
 on:
   push:
