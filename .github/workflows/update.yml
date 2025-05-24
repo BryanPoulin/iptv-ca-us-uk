@@ -10,9 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Combine playlists
+
+      - name: Combine playlists (skip extra headers)
         run: |
-          cat streams/*.m3u > index.m3u
+          echo "EXTM3U" > index.m3u
+          for file in streams/*.m3u; do
+            tail -n +2 "$file" >> index.m3u
+          done
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
