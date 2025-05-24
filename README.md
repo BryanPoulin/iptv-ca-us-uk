@@ -1,10 +1,10 @@
-# 🇨🇦🇺🇸🇬🇧 Public IPTV Playlist - Canada, US, UK
+# 🇨🇦🇺🇸🇬🇧 Public IPTV Playlist: Canada, USA, UK
 
-A curated list of publicly available IPTV (Internet Protocol Television) channels from Canada, the United States, and the United Kingdom.
+A curated list of publicly available IPTV (Internet Protocol Television) streams from Canada, the United States, and the United Kingdom.
 
 ## 📺 How to Use
 
-Use any IPTV-compatible video player (e.g. VLC, IPTV Smarters) and load a `.m3u` URL.
+Use any IPTV-compatible video player (e.g. VLC, IPTV Smarters) to open `.m3u` playlist URLs.
 
 Example:
 
