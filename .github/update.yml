@@ -2,8 +2,6 @@ name: Update index.m3u
 
 on:
   push:
-    paths:
-      - 'streams/**.m3u'
 
 jobs:
   update:
