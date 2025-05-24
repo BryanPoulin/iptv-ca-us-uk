@@ -11,12 +11,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Combine playlists (skip extra headers)
+      - name: Combine playlists (with timestamp and source)
         run: |
-          echo "EXTM3U" > index.m3u
-          for file in streams/*.m3u; do
-            tail -n +2 "$file" >> index.m3u
-          done
+          {
+            echo "#EXTM3U"
+            echo "# Updated: $(date -u + '%Y-%m-%d %H:%M UTC')"
+            echo "# Source: https://github.com/BryanPoulin/iptv-ca-us-uk"
+            for file in streams/*.m3u; do
+              tail -n +2 "$file"
+            done
+          } > index.m3u
 
       - name: Commit changes
         run: |
